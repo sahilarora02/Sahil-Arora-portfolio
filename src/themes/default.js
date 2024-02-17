@@ -1,4 +1,4 @@
-export default {
+const defaultTheme = {
   // Updated fonts
   fonts: {
     title: "Roboto, sans-serif",
@@ -23,4 +23,6 @@ export default {
     lg: 'screen and (max-width: 992px)',
     xl: 'screen and (max-width: 1200px)'
   },
-}
+};
+
+export default defaultTheme;
