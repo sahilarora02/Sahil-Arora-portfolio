@@ -199,7 +199,6 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
     role: "Software Development Intern",
     company: "Coding Ninjas",
     date: "Mar 2023 - Oct 2023",
@@ -214,7 +213,6 @@ export const experiences = [
   },
   {
     id: 1,
-    // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
     role: "Research Intern",
     company: "Defence Research and Development Organization (DRDO)",
     date: "Dec 2022 - feb 2023",
@@ -222,7 +220,6 @@ export const experiences = [
   },
   {
     id: 2,
-    // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Rudraksha.jpeg?alt=media&token=8f83f41e-d0a1-486f-9c7f-dd4cd1d09e8d",
     role: "Software Development Intern",
     company: "Cross Tower India Pvt. Ltd ",
     date: "Sep 2022 - Dec 2022",
@@ -237,50 +234,7 @@ export const experiences = [
       "MUI",
     ],
   },
-  // {
-  //   id: 3,
-  //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-  //   role: "Fullstack Externship",
-  //   company: "Flipr",
-  //   date: "June 2023 - July 2023",
-  //   desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
-  //   skills: [
-  //     "ReactJS",
-  //     "Redux",
-  //     "NodeJs",
-  //     "Material UI",
-  //     "HTML",
-  //     "CSS",
-  //     "JavaScript",
-  //     "Docker",
-  //     "AWS",
-  //     "MongoDB",
-  //   ],
-  //   doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1691181448873.jpeg?alt=media&token=ee85eb8f-7247-43cd-9a1d-ce9f58ea62a6",
-  // },
-  // {
-  //   id: 4,
-  //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
-  //   role: "Android Developer",
-  //   company: "DSC KIIT",
-  //   date: "Nov2021 - Present",
-  //   desc: "As an Android developer at the Google Developers Student Club (GDCS), I have had the opportunity to work on exciting projects and collaborate with talented developers who share my passion for technology. Through my involvement with GDCS, I have also had the opportunity to host and participate in numerous events, including hackathons, study jams, and workshops.",
-  //   skills: [
-  //     "Leadership",
-  //     "Mobile Application Development",
-  //     "Kotlin",
-  //     "XML",
-  //     "Figma",
-  //   ],
-  // },
-  // {
-  //   id: 5,
-  //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
-  //   role: "Open Source Contributor ",
-  //   company: "GirlScript Summer of Code",
-  //   date: "May 2023 - Present",
-  //   desc: "Contributed to different open-source projects and learn from industry experts",
-  // },
+
 ];
 
 export const education = [
@@ -295,7 +249,6 @@ export const education = [
   },
   {
     id: 1,
-    // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
     school: "Rajkiya Pratibha Vikas Vidhalaya",
     date: "Apr 2018 - Apr 2020",
     grade: "88.2%",
@@ -328,7 +281,6 @@ export const projects = [
   {
     id: 9,
     title: "Meet Me",
-    // date: "Jun 2023 - Jul 2023",
     description:
       "A real-time peer-to-peer video conferencing application was crafted, boasting an intuitive design for effortless use while prioritizing secure and trustworthy communication channels.",
     image:MeetMe,
@@ -348,7 +300,6 @@ export const projects = [
   {
     id: 0,
     title: "JobHunter",
-    // date: "Apr 2023 - May 2023",
     description:
       "JobHunterBot is a Node.js project aimed at streamlining job hunting on LinkedIn. It automates the process of scraping job listings and sends daily email notifications containing the latest opportunities, eliminating manual searching. With features like automated job scraping, daily email notifications, and customizable job filters, users can effortlessly stay updated with relevant job openings tailored to their preferences and locations of interest.",
     image:JobHunter,
@@ -361,7 +312,6 @@ export const projects = [
   {
     id: 1,
     title: "XoXo Weather App",
-    // date: "Oct 2022 - Jan 2023",
     description:
       "Xoxo Weather Bot, a Telegram bot, offers a comprehensive weather experience along with engaging content. Users can receive personalized daily weather updates for their chosen state and explore interesting weather-related facts. Additionally, the bot provides insights into the developer behind its creation, ensuring transparency and trust. Whether you're seeking weather forecasts or fun trivia, Xoxo Weather Bot has you covered.",
     image:XoXo,
@@ -380,7 +330,6 @@ export const projects = [
   {
     id: 2,
     title: "Indian Desi",
-    // date: "Jan 2023 - Mar 2023",
     description:"Indian Desi is a thoughtful app designed to alleviate the daily dilemma faced by countless mothers - what to cook for breakfast, lunch, and dinner. Developed with care, it serves as a reliable source of meal ideas, offering a diverse array of traditional Indian recipes tailored to varying tastes and dietary preferences. With this app at their fingertips, moms can effortlessly plan delicious and nutritious meals for their families, saving time and stress while ensuring satisfaction at every table.",
     image:IndianDesi,
     tags: ["React Native", "Nodejs", "ExpressJs", "MongoDb", "Expo"],
@@ -391,7 +340,6 @@ export const projects = [
   {
     id: 10,
     title: "Music App",
-    // date: "Jun 2023 - Jul 2023",
     description:
       "Elevate users' auditory experiences with the Music App, a dynamic platform for streaming and enjoying their favorite tunes. Through seamless navigation and personalized playlists, users can discover new artists, rediscover old favorites, and curate soundtracks for every mood and occasion. With features like offline listening and customizable playlists, this app offers the ultimate harmony for music lovers everywhere.",
     image: MusicApp,
@@ -403,7 +351,6 @@ export const projects = [
   {
     id: 4,
     title: "Tic Tac Toe Game",
-    // date: "Jul 2021",
     description:
       "Rediscover the joy of classic gaming with the Tic Tac Toe Game, a modern twist on a timeless favorite. Through sleek graphics and intuitive gameplay, users can engage in endless rounds of strategic competition with friends or AI opponents. With customizable difficulty levels and multiplayer capabilities, this app provides hours of entertainment for players of all ages, bringing nostalgia to life in the digital age.",
     image:TicTacToe,
@@ -415,7 +362,6 @@ export const projects = [
   {
     id: 5,
     title: "basketCraft",
-    // date: "Jun 2021",
     description:
       "Presenting the Basket Craft , your premier destination for artisanal treasures and unique gifts. With a user-friendly interface and secure checkout, discover a curated selection of handcrafted goods from talented artisans worldwide. Shop with ease and support independent makers with every purchase.",
     image:basketCraft,
