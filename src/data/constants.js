@@ -346,7 +346,7 @@ export const projects = [
     tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
     category: "android app",
     github: "https://github.com/sahilarora02/Music-app",
-    webapp: "https://github.com/sahilarora02/Music-appp",
+    webapp: "https://github.com/sahilarora02/Music-app",
   },
   {
     id: 4,
