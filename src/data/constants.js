@@ -228,26 +228,13 @@ export const experiences = [
   },
   {
     id: 2,
-    role: "Software Development Intern",
-    company: "Cross Tower India Pvt. Ltd",
-    date: "Sept 2022 – Dec 2022",
-    desc: "Designed and developed a scalable course-selling platform using React.js, Node.js, and MongoDB, architected to handle 2K+ concurrent users with optimized database queries and efficient state management. Implemented secure payment gateway integration and robust JWT-based authentication system, ensuring PCI compliance and maintaining security standards during the development cycle.",
-    skills: [
-      "ReactJs",
-      "Node.js",
-      "MongoDB",
-      "JWT"
-    ]
-  },
-  {
-    id: 3,
     role: "Research Intern",
     company: "Defence Research and Development Organization (DRDO)",
     date: "Dec 2022 - feb 2023",
     desc: "Spearheaded the development of an Institutional Repository for DRDO, contributing to knowledge management and facilitating efficient data access and retrieval. Optimized the Institutional Repository by implementing user-centered design principles and conducting usability testing; enhanced user experience, resulting 20% improvement in search functionality. ",
   },
   {
-    id: 2,
+    id: 3,
     role: "Software Development Intern",
     company: "Cross Tower India Pvt. Ltd ",
     date: "Sep 2022 - Dec 2022",
