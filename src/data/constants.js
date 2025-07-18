@@ -23,6 +23,9 @@ const MusicApp = require("../images/MusicApp.jpg");
 const TicTacToe = require("../images/TicTacToe.jpg");
 const IndianDesi = require("../images/IndianDesi.jpg");
 const MAIT = require("../images/MAIT.jpg")
+const observo = require("../images/observo.png")
+const snipsavvy = require("../images/Snipsavvy.png")
+const pullmate  =require("../images/Pullmate.png")
 export const skills = [
   {
     title: "Frontend",
@@ -286,6 +289,7 @@ export const projects = [
   {
     id: 14,
     title: "Observo",
+    image:observo,
     description: "A self-hosted log monitoring and analytics platform for real-time aggregation, storage, and visualization. Features a log agent, Kafka-based data pipeline, and a real-time analytics dashboard.",
     tags: [
       "Docker",
@@ -304,6 +308,7 @@ export const projects = [
     id: 12,
     title: "PullMate",
     description: "Automated PR summaries by commenting on suggested changes in GitHub repositories.",
+    image:pullmate,
     tags: [
       "NextJs",
       "Node.js",
@@ -319,6 +324,7 @@ export const projects = [
     id: 13,
     title: "SnipSavvy",
     description: "Code management platform with multiple workspaces and collections for team collaboration.",
+    image:snipsavvy,
     tags: [
       "Next.js",
       "MongoDB",
