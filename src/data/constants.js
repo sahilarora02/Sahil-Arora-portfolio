@@ -199,10 +199,22 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    role: "Software Development Engineer",
+    company: "Coding Ninjas",
+    date: "June 2024 – present",
+    desc: "Designed and implemented a comprehensive AI-powered assistance system supporting MCQ, Notes, and Coding Problems with dynamic prompt handling across multiple contexts. Built backward-compatible APIs and streaming infrastructure that reduced average support resolution time by 15% and improved user engagement. Architected and developed the Code Problem Complete section for Problem of the Day, implementing full-stack solutions with Angular, TypeScript, and Ruby on Rails that increased daily active users by 20% and improved problem completion rates.",
+    skills: [
+      "Angular",
+      "TypeScript",
+      "Ruby on Rails",
+    ],
+  },
+  {
+    id: 1,
     role: "Software Development Intern",
     company: "Coding Ninjas",
-    date: "Mar 2023 - Oct 2023",
-    desc: "Collaborated with the development team to enhance codebase performance code profiling and debugging, resulting in a 30% more robust platform with a 20% reduction in system crashes. Spearheaded the implementation of cutting-edge technologies and design patterns in AngularJS and Ruby on Rails, resulting in enhanced platform stability and efficiency. Played a key role in bug resolution, leaderboard management, and API integration, significantly enhancing the user experience for Coding Ninjas’ platform",
+    date: "August 2023 – June 2024",
+    desc: "Developed the foundational framework for the Problem of the Day module, including user statistics tracking, performance leaderboards, and analytics dashboard supporting 10K+ daily active users. Enhanced platform stability through systematic bug resolution and code optimization, achieving a 10% reduction in user-reported issues and maintaining high uptime across production environments.",
     skills: [
       "AngularJs",
       "Ruby on Rails",
@@ -212,7 +224,20 @@ export const experiences = [
     ],
   },
   {
-    id: 1,
+    id: 2,
+    role: "Software Development Intern",
+    company: "Cross Tower India Pvt. Ltd",
+    date: "Sept 2022 – Dec 2022",
+    desc: "Designed and developed a scalable course-selling platform using React.js, Node.js, and MongoDB, architected to handle 2K+ concurrent users with optimized database queries and efficient state management. Implemented secure payment gateway integration and robust JWT-based authentication system, ensuring PCI compliance and maintaining security standards during the development cycle.",
+    skills: [
+      "ReactJs",
+      "Node.js",
+      "MongoDB",
+      "JWT"
+    ]
+  },
+  {
+    id: 3,
     role: "Research Intern",
     company: "Defence Research and Development Organization (DRDO)",
     date: "Dec 2022 - feb 2023",
@@ -258,6 +283,53 @@ export const education = [
 ];
 
 export const projects = [
+  {
+    id: 14,
+    title: "Observo",
+    description: "A self-hosted log monitoring and analytics platform for real-time aggregation, storage, and visualization. Features a log agent, Kafka-based data pipeline, and a real-time analytics dashboard.",
+    tags: [
+      "Docker",
+      "Kafka",
+      "MongoDB",
+      "Node.js",
+      "Express.js",
+      "React.js",
+      "TypeScript",
+    ],
+    category: "web app",
+    github: "https://github.com/daddycoder007/Observo",
+    webapp: "https://www.observo.live/",
+  },
+  {
+    id: 12,
+    title: "PullMate",
+    description: "Automated PR summaries by commenting on suggested changes in GitHub repositories.",
+    tags: [
+      "NextJs",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Gemini APIs",
+    ],
+    category: "web app",
+    github: "https://github.com/sahilarora02/PullMate",
+    webapp: "https://github.com/sahilarora02/PullMate",
+  },
+  {
+    id: 13,
+    title: "SnipSavvy",
+    description: "Code management platform with multiple workspaces and collections for team collaboration.",
+    tags: [
+      "Next.js",
+      "MongoDB",
+      "Node.js",
+      "TypeScript",
+      "Express.js",
+    ],
+    category: "web app",
+    github: "https://github.com/SnipSavvy?tab=repositories",
+    webapp: "https://snipsavvy.vercel.app/",
+  },
   {
     id: 11,
     title: "Campus Kart",
